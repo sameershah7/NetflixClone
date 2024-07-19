@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+:root {
+    --textColor: #ffffff;
+    --bgblack: #000000;
+}
+
+body {
+    background-color: var(--bgblack);
+}
+
+.navSection {
+    background-image: url(/pic/bgimg.jpg);
+    background-size: cover;
+}
+
+.sectionHome {
+    background-color: #000000a1;
+    height: 650px;
+}
+
+.navbar {
+    padding: 24px 24px;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 53px;
+}
+
+.signupbtn {
+    height: 32px;
+    width: 70px;
+    font-size: 1rem;
+    color: var(--textColor);
+    background: red;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Home contant */
+
+.textconainter {
+    color: var(--textColor);
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    flex-wrap: nowrap
+}
+
+.textconainter>h1 {
+    font-size: 3rem;
+    margin-bottom: 12px;
+}
+
+.textconainter>p {
+    font-size: 1.5rem;
+
+}
+
+.emailinput {
+    margin: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.emailinput input {
+    font-size: 1.2rem;
+    height: 60px;
+    width: 30vw;
+    min-width: 240px;
+    border-radius: 3px;
+    padding: 12px;
+    background-color: #121111;
+    color: var(--textColor);
+    color: var(--textColor);
+    border: 1px solid #ffffffcb;
+    margin-right: 12px;
+
+}
+
+.emailinput ::placeholder {
+    color: var(--textColor);
+}
+
+.emailinput button {
+    font-size: 1.5rem;
+    height: 60px;
+    padding: 12px 25px;
+    background: red;
+    border: none;
+    color: var(--textColor);
+    border-radius: 4px;
+    margin: 12px 0;
+    cursor: pointer;
+}
+
+
+.line {
+    width: 100%;
+    height: 0.5rem;
+    bottom: -0.5rem;
+    background-color: rgb(35, 35, 35);
+}
+
+
+
+/* Section two  */
+
+.section {
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+
+
+.section .sectionbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--textColor);
+    text-align: center;
+    width: 500px;
+    margin: 50px;
+
+}
+
+.section .sectionbox h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.section .sectionbox p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+.section img {
+    width: 40%;
+    height: auto;
+}
+
+
+/* Q&A section */
+
+.QAconatiner h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--textColor);
+    text-align: center;
+    padding: 35px;
+}
+
+.QAconatiner .Accordion-menu {
+    width: 80%;
+    margin: auto;
+}
+
+.QAconatiner .Accordion-menu .Accordion-section .title {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    color: var(--textColor);
+    padding: 1rem 3rem;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: 1px solid #000000;
+}
+
+.QAconatiner .Accordion-menu .Accordion-section .title:hover {
+    background-color: #404040;
+}
+
+.QAconatiner .Accordion-menu .qa-btn {
+    font-size: 40px;
+}
+
+
+
+.Accordion-menu .title .qa-btn.active {
+    rotate: 45deg;
+}
+
+.AQanswer {
+    color: var(--textColor);
+    padding: 30px 45px;
+    font-size: 1.5rem;
+    background-color: #2d2d2d;
+    display: none;
+}
+
+
+
+
+/*          EMAIL SECTION */
+
+
+.emailSection {
+    text-align: center;
+    padding: 40px;
+    font-size: 1.2rem;
+    background-color: var(--bgblack);
+}
+
+.emailSection h4 {
+    align-items: center;
+    padding-top: 23px;
+    color: var(--textColor);
+}
+
+
+
+
+/* footer start */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--bgblack);
+    color: #fff;
+    border: none;
+}
+
+.main-content {
+    padding: 50px;
+    text-align: center;
+}
+
+.footer {
+    background-color: var(--bgblack);
+    padding: 20px 0;
+    border-top: 1px solid #333;
+    margin: auto;
+    width: 80vw;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px 0px;
+}
+
+
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-column a {
+    display: block;
+    color: #757575;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+
+.service-code {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.service-code:hover {
+    background-color: #555;
+}
+
+.footer p {
+    text-align: center;
+    color: #757575;
+    font-size: 14px;
+    margin: 0;
+}
+
+
+/* footer end */
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1110px) {
+
+    .navbar {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .textconainter {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .sectionreverse {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+
+
+    .textconainter>h1 {
+        font-size: 2rem;
+        margin-bottom: 7px;
+    }
+
+    .textconainter p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    .section .sectionbox {
+        width: 100%;
+        margin: 5px;
+
+    }
+
+    .section .sectionbox h1 {
+        font-size: 2rem;
+    }
+
+    .section .sectionbox p {
+        font-size: 1rem;
+    }
+
+
+}
